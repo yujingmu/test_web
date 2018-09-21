@@ -31,12 +31,15 @@ from bid_page import BidPage
 from login_page import LoginPage
 from index_page import IndexPage
 from person_page import PersonPage
-
+from selenium.webdriver.chrome.options import Options
 class TestInvest(unittest.TestCase):
 
     def setUp(self):
+		#设置无头浏览器
+        chrome_options = Options()
+        chrome_options.add_argument("--headless")
         # 登录
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome(executable_path=(r"C:\Users\yujing\AppData\Local\Programs\Python\Python37\chromedriver.exe"), chrome_options=chrome_options)
         self.driver.maximize_window()
         self.driver.get("http://120.79.176.157:8012/Index/login.html")
         self.bid_page = BidPage(self.driver)
