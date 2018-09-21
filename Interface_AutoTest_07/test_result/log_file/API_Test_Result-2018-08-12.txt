@@ -1,0 +1,926 @@
+2018-08-12 12:23:02,888-DEBUG-api_log.py-api_test_logger-日志信息:debug 信息
+2018-08-12 12:25:43,000-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:43,203-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:25:43,205-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:43,383-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:25:43,385-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:43,385-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:25:43,391-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:43,392-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 12:25:43,579-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:25:43,580-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:43,761-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'status': 1, 'code': '10001', 'data': {'id': '${mem[180 chars]成功'}" != "{'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '${no_reg_tel}', 'leaveamount': '460732.00', 'type': '1', 'regtime': '${regtime}'}, 'msg': '充值成功'}
++ {'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}
+
+2018-08-12 12:25:43,795-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:25:43,799-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:43,993-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'status': 0, 'code': '20116', 'data': None, 'msg': '输入金额的金额小数不能超过两位'}" != "{'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}"
+- {'status': 0, 'code': '20116', 'data': None, 'msg': '输入金额的金额小数不能超过两位'}
++ {'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}
+
+2018-08-12 12:25:44,025-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:25:44,028-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:44,214-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'status': 1, 'code': '10001', 'data': {'id': '${mem[180 chars]成功'}" != "{'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '${no_reg_tel}', 'leaveamount': '460632.00', 'type': '1', 'regtime': '${regtime}'}, 'msg': '取现成功'}
++ {'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}
+
+2018-08-12 12:25:44,259-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:25:44,262-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 12:25:44,444-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'status': 0, 'code': '20116', 'data': None, 'msg': '输入金额的金额小数不能超过两位'}" != "{'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}"
+- {'status': 0, 'code': '20116', 'data': None, 'msg': '输入金额的金额小数不能超过两位'}
++ {'status': 0, 'code': None, 'data': None, 'msg': '抱歉，请先登录。'}
+
+2018-08-12 12:25:44,481-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 12:26:09,862-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:08:34,971-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:08:35,057-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:09:58,193-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:09:58,305-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:10:17,684-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:10:17,818-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:11:16,794-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:11:16,907-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:12:24,536-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:12:24,626-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:12:38,744-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:12:38,848-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:18:39,711-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:18:39,825-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:19:55,499-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:19:55,585-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:22:07,236-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:22:07,336-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:25:43,455-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:25:43,573-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:30:46,918-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:30:47,038-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:37:24,319-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:37:24,508-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:37:24,935-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': '小蜜蜂', 'pwd': [145 chars]成功'}" != "{'st[37 chars]id': 24167, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '${no_reg_tel}', 'leaveamount': '460732.00', 'type': '1', 'regtime': '${regtime}'}, 'msg': '充值成功'}
++ {'status': 1, 'code': '10001', 'data': {'id': 24167, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194116', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 13:37:23.0'}, 'msg': '充值成功'}
+
+2018-08-12 13:37:25,294-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': '小蜜蜂', 'pwd': [145 chars]成功'}" != "{'st[37 chars]id': 24167, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 937 characters long. Set self.maxDiff to None to see it.
+2018-08-12 13:38:25,736-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:38:25,926-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 13:38:26,293-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': '小蜜蜂', 'pwd': [145 chars]成功'}" != "{'st[37 chars]id': 24170, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '${no_reg_tel}', 'leaveamount': '460732.00', 'type': '1', 'regtime': '${regtime}'}, 'msg': '充值成功'}
++ {'status': 1, 'code': '10001', 'data': {'id': 24170, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194117', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 13:38:25.0'}, 'msg': '充值成功'}
+
+2018-08-12 13:38:26,659-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': '小蜜蜂', 'pwd': [145 chars]成功'}" != "{'st[37 chars]id': 24170, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 937 characters long. Set self.maxDiff to None to see it.
+2018-08-12 14:50:19,473-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:19,674-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:50:19,676-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:19,871-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:50:19,873-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:19,874-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 14:50:20,107-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:50:20,110-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:20,112-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 14:50:20,370-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:50:20,373-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:20,535-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': '小蜜蜂', 'pwd': [145 chars]成功'}" != "{'st[37 chars]id': 24178, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': '小蜜蜂', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '${no_reg_tel}', 'leaveamount': '460732.00', 'type': '1', 'regtime': '${regtime}'}, 'msg': '充值成功'}
++ {'status': 1, 'code': '10001', 'data': {'id': 24178, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194118', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 14:50:19.0'}, 'msg': '充值成功'}
+
+2018-08-12 14:50:20,577-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:50:20,581-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:20,752-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:50:20,755-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:20,894-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': '小蜜蜂', 'pwd': [145 chars]成功'}" != "{'st[37 chars]id': 24178, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 937 characters long. Set self.maxDiff to None to see it.
+2018-08-12 14:50:20,938-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:50:20,940-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 14:50:21,112-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 14:56:58,030-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 14:56:58,035-ERROR-api_log.py-API_Test_Logger-日志信息:get请求错误：name 'COOKIES' is not defined
+2018-08-12 14:57:23,650-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:26:20,413-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:20,549-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:26:20,551-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:20,662-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:26:20,663-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:20,663-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:26:20,771-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:26:20,773-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:20,775-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:26:20,859-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:26:20,860-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:21,016-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:26:21,017-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:21,163-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:26:21,164-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:21,298-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:26:21,299-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:26:21,455-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:05,325-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:05,438-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:05,440-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:05,523-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:05,524-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:05,525-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:27:05,634-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:05,636-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:05,637-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:27:05,745-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:05,745-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:05,907-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:05,908-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:06,056-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:06,057-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:06,197-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:27:06,198-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:27:06,358-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:05,516-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:05,627-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:05,629-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:05,726-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:05,727-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:05,729-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:28:05,830-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:05,831-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:05,831-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:28:05,914-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:05,915-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:06,099-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:06,100-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:06,248-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:06,251-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:06,411-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:28:06,412-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:28:06,541-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:06,756-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:32:18,567-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:19,627-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:19,628-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:19,780-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:19,781-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:19,782-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:32:19,935-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:19,935-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:19,936-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:32:20,089-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:20,090-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:20,195-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:20,199-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:20,340-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:20,340-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:20,454-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:32:20,455-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:32:20,599-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:15,339-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:15,754-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:23,521-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:23,522-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:23,568-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:23,570-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:23,732-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:23,733-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:23,734-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:35:23,835-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:23,838-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:23,839-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:35:23,890-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:23,891-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:23,892-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:35:24,008-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:24,015-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:24,015-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:35:24,022-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:24,023-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:24,324-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:24,325-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:24,520-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:24,520-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:24,664-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:24,665-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:24,840-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:27,366-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:27,367-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:27,641-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:27,643-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:28,039-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:28,040-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:28,293-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:35:28,295-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:35:28,840-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:36:58,106-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:36:58,936-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}" != "{'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}"
+- {'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'}
+?            ^             ---                           --
++ {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+?            ^           +++                           ++++++
+
+2018-08-12 15:36:58,995-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:36:58,997-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:36:59,180-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:36:59,180-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:36:59,181-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:36:59,356-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:36:59,357-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:36:59,357-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:36:59,543-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:36:59,544-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:36:59,739-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24194', 'regname': '小蜜蜂', 'pwd': 'E10ADC[149 chars]成功'}" != "{'st[37 chars]id': 24194, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 825 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:36:59,772-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:36:59,773-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:36:59,959-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:36:59,960-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:37:00,124-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24194', 'regname': '小蜜蜂', 'pwd': 'E10ADC[149 chars]成功'}" != "{'st[37 chars]id': 24194, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 821 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:37:00,157-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:37:00,158-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:37:00,334-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:57,396-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:58,332-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:58,332-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:58,529-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:58,529-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:58,530-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:42:58,707-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:58,707-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:58,708-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:42:58,907-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:58,908-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:59,078-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24199', 'regname': 'tester', 'pwd': 'E10[152 chars]成功'}" != "{'st[37 chars]id': 24199, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 831 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:42:59,111-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:59,114-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:59,282-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:59,283-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:59,450-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24199', 'regname': 'tester', 'pwd': 'E10[152 chars]成功'}" != "{'st[37 chars]id': 24199, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:42:59,500-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:42:59,501-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:42:59,678-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:28,383-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:29,315-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:29,316-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:29,509-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:29,510-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:29,510-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:45:29,700-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:29,700-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:29,701-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:45:29,944-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:29,944-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:30,124-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24202', 'regname': 'tester', 'pwd': 'E10[152 chars]成功'}" != "{'st[37 chars]id': 24202, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 831 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:45:30,160-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:30,162-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:30,355-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:30,356-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:30,558-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24202', 'regname': 'tester', 'pwd': 'E10[152 chars]成功'}" != "{'st[37 chars]id': 24202, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:45:30,591-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:45:30,592-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:45:30,775-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:55,184-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:56,057-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:56,057-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:56,209-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:56,210-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:56,212-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:55:56,374-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:56,374-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:56,375-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 15:55:56,554-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:56,554-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:56,718-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24209', 'regname': 'tester', 'pwd': 'E10[152 chars]成功'}" != "{'st[37 chars]id': 24209, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 831 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:55:56,763-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:56,765-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:56,942-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:56,942-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:57,089-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24209', 'regname': 'tester', 'pwd': 'E10[152 chars]成功'}" != "{'st[37 chars]id': 24209, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 15:55:57,132-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 15:55:57,133-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 15:55:57,294-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:41,569-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:42,361-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:42,363-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:42,522-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:42,522-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:42,523-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 16:09:42,674-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:42,675-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:42,676-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 16:09:42,846-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:42,849-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:42,990-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:42,991-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:43,146-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:43,147-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:43,301-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:09:43,302-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:09:43,473-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:41,435-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:42,388-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:42,389-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:42,577-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:42,578-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:42,578-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 16:10:42,769-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:42,770-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:42,771-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 16:10:42,963-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:42,964-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:43,194-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24215', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24215, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 16:10:43,227-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:43,228-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:43,413-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:43,414-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:43,590-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24215', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24215, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 16:10:43,623-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 16:10:43,624-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 16:10:43,819-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:45,521-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:46,503-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:46,505-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:46,707-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:46,709-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:46,711-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 18:59:46,905-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:46,907-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:46,908-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 18:59:47,102-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:47,104-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:47,282-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:47,285-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:47,472-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:47,474-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:47,658-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24294', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24294, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 18:59:47,694-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 18:59:47,696-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 18:59:47,879-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:32,427-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:33,404-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:33,406-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:33,585-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:33,586-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:33,588-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:01:33,774-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:33,775-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:33,777-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:01:33,965-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:33,966-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:34,490-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:34,497-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:34,698-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:34,700-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:34,862-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24298', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24298, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:01:34,901-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:01:34,903-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:01:35,087-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:18,946-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:19,926-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:19,928-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:20,132-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:20,135-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:20,136-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:12:20,310-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:20,311-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:20,313-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:12:20,515-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:20,517-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:20,989-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:20,992-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:21,168-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:21,171-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:21,327-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24306', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24306, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:12:21,380-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:21,382-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:21,570-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:31,262-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:32,322-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:32,325-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:32,781-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:32,785-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:32,788-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:12:33,191-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:33,194-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:12:33,196-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:12:33,587-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:12:33,590-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:28,979-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:29,857-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:29,857-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:30,032-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:30,034-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:30,035-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:17:30,213-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:30,215-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:30,217-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:17:30,395-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:30,398-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:30,918-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:30,921-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:31,101-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:31,103-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:31,272-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24309', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24309, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:17:31,318-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:31,320-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:31,491-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:35,533-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:36,643-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:36,646-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:37,039-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:37,041-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:37,043-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:17:37,425-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:37,427-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:17:37,429-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:17:37,810-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:17:37,813-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:31,204-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:32,182-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:32,185-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:32,383-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:32,386-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:32,388-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:34:32,594-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:32,596-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:32,599-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:34:32,808-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:32,811-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:33,318-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24315', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24315, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:34:33,373-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:33,377-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:33,576-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:33,578-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:33,735-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24315', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24315, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:34:33,787-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:33,791-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:33,989-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:41,406-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:42,533-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:42,536-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:42,958-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:42,960-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:42,963-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:34:43,392-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:43,394-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:34:43,396-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:34:43,820-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:34:43,822-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:00,740-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:01,604-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:37:01,607-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:01,808-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:37:01,810-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:01,812-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:37:01,997-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:37:01,999-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:02,001-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:37:02,176-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:37:02,178-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:02,801-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24321', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24321, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:37:02,837-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:37:02,840-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:02,997-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:37:02,998-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:03,183-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24321', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24321, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:37:03,219-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:37:03,221-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:37:03,393-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:16,712-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:17,714-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:17,715-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:17,979-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:17,983-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:17,985-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:42:18,182-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:18,183-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:18,185-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:42:18,373-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:18,374-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:18,902-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24330', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24330, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:42:18,956-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:18,961-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:19,166-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:19,169-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:19,722-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24330', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24330, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+Diff is 823 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:42:19,798-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:42:19,801-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:42:20,015-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:02,407-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:03,340-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:03,341-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:03,517-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:03,519-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:03,520-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:48:03,697-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:03,698-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:03,701-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 19:48:03,891-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:03,893-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:04,413-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24335', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24335, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 19:48:04,461-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:04,464-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:04,644-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:04,647-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:05,210-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24335', 'regname': 'tester', 'pwd': 'E10[145 chars]成功'}" != "{'st[37 chars]id': 24335, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '24335', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194144', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 19:48:01.0'}, 'msg': '取现成功'}
+?                                               ^^^^^^^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24335, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194144', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 19:48:01.0'}, 'msg': '取现成功'}
+?                                               ^^^^^^
+
+2018-08-12 19:48:05,254-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 19:48:05,256-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 19:48:05,443-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:13:12,053-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:13:13,179-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:13:13,181-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:13:13,550-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:13:13,552-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:13:13,556-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 20:13:13,981-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:13:13,983-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:13:13,985-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 20:13:14,352-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:13:14,354-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:13:50,313-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24345', 'regname': 'tester', 'pwd': 'E10[150 chars]成功'}" != "{'st[37 chars]id': 24345, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+Diff is 827 characters long. Set self.maxDiff to None to see it.
+2018-08-12 20:13:50,439-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:13:50,442-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:13:50,798-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:13:50,801-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:18:24,579-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:18:31,946-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:18:31,948-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:18:34,857-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:18:34,859-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:18:34,861-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 20:18:36,579-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:18:36,581-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 20:18:36,583-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 20:18:38,529-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 20:18:38,532-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:28:47,227-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:29:48,111-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:29:54,466-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:30:33,800-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:30:44,295-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:30:44,302-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:30:58,700-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:31:12,635-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:31:12,640-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:31:31,644-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:31:49,495-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:26,191-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:27,164-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:44:27,167-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:27,370-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:44:27,372-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:27,374-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:44:27,586-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:44:27,587-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:27,589-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:44:27,805-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:44:27,807-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:28,368-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24379', 'regname': 'tester', 'pwd': 'E10[147 chars]成功'}" != "{'st[37 chars]id': 24379, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '24379', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194149', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 21:44:25.0'}, 'msg': '充值成功'}
+?                                               -     ^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24379, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194149', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 21:44:25.0'}, 'msg': '充值成功'}
+?                                                    ^
+
+2018-08-12 21:44:28,414-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:44:28,416-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:28,599-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:44:28,600-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:29,175-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24379', 'regname': 'tester', 'pwd': 'E10[145 chars]成功'}" != "{'st[37 chars]id': 24379, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '24379', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194149', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 21:44:25.0'}, 'msg': '取现成功'}
+?                                               -     ^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24379, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194149', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 21:44:25.0'}, 'msg': '取现成功'}
+?                                                    ^
+
+2018-08-12 21:44:29,212-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:44:29,214-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:44:29,385-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:45:49,197-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:45:59,675-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:46:08,312-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:46:23,494-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:46:23,496-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:46:23,498-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:46:24,914-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:46:24,916-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:46:24,918-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:47:01,896-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:47:01,899-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:50,829-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:51,798-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:51:51,799-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:51,970-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:51:51,971-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:51,971-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:51:52,128-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:51:52,130-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:52,131-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:51:52,336-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:51:52,338-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:52,482-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:51:52,485-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:52,646-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:51:52,648-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:52,804-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:51:52,806-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:51:52,972-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:11,107-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:11,986-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:11,988-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:12,180-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:12,182-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:12,184-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:54:12,340-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:12,341-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:12,343-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:54:12,537-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:12,538-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:13,153-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24385', 'regname': 'tester', 'pwd': 'E10[147 chars]成功'}" != "{'st[37 chars]id': 24385, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '24385', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194152', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 21:54:10.0'}, 'msg': '充值成功'}
+?                                               ^^^^^^^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24385, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194152', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 21:54:10.0'}, 'msg': '充值成功'}
+?                                               ^^^^^^
+
+2018-08-12 21:54:13,190-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:13,192-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:13,358-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:13,359-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:13,886-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '24385', 'regname': 'tester', 'pwd': 'E10[145 chars]成功'}" != "{'st[37 chars]id': 24385, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '24385', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194152', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 21:54:10.0'}, 'msg': '取现成功'}
+?                                               ^^^^^^^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24385, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194152', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 21:54:10.0'}, 'msg': '取现成功'}
+?                                               ^^^^^^
+
+2018-08-12 21:54:13,923-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:54:13,925-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:54:14,099-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:21,675-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:22,677-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:22,679-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:22,877-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:22,878-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:22,880-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:57:23,077-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:23,079-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:23,080-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:57:23,274-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:23,276-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:23,834-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': 'tester', 'pwd[154 chars]成功'}" != "{'st[37 chars]id': 24389, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194153', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 21:57:21.0'}, 'msg': '充值成功'}
+?                                               ^^^^^^^^^^^^^^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24389, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194153', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 21:57:21.0'}, 'msg': '充值成功'}
+?                                               ^^^^^^
+
+2018-08-12 21:57:23,871-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:23,874-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:24,041-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:24,042-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:24,588-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': 'tester', 'pwd[152 chars]成功'}" != "{'st[37 chars]id': 24389, 'regname': 'tester', 'pwd': 'E10AD[143 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194153', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 21:57:21.0'}, 'msg': '取现成功'}
+?                                               ^^^^^^^^^^^^^^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24389, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194153', 'leaveamount': '0.00', 'type': '1', 'regtime': '2018-08-12 21:57:21.0'}, 'msg': '取现成功'}
+?                                               ^^^^^^
+
+2018-08-12 21:57:24,624-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:24,626-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:24,796-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:53,407-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:56,703-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:56,705-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:58,076-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:58,078-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:58,080-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:57:59,026-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:57:59,028-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 21:57:59,030-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 21:58:04,478-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 21:58:04,481-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:35,111-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:36,025-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:36,026-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:36,214-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:36,216-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:36,217-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:01:36,428-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:36,430-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:36,432-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:01:36,626-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:36,628-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:37,233-ERROR-api_log.py-API_Test_Logger-日志信息:执行用例时报错："{'st[37 chars]id': '${member_id}', 'regname': 'tester', 'pwd[154 chars]成功'}" != "{'st[37 chars]id': 24393, 'regname': 'tester', 'pwd': 'E10AD[145 chars]成功'}"
+- {'status': 1, 'code': '10001', 'data': {'id': '${member_id}', 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194155', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 22:01:34.0'}, 'msg': '充值成功'}
+?                                               ^^^^^^^^^^^^^^^
++ {'status': 1, 'code': '10001', 'data': {'id': 24393, 'regname': 'tester', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'mobilephone': '18093194155', 'leaveamount': '100.00', 'type': '1', 'regtime': '2018-08-12 22:01:34.0'}, 'msg': '充值成功'}
+?                                               ^^^^^^
+
+2018-08-12 22:01:37,270-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:37,273-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:37,461-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:37,463-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:37,611-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:37,613-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:01:37,800-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:01:55,660-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:02:01,575-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:02:01,577-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:02:11,403-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:02:11,405-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:02:11,407-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:02:12,647-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:02:12,650-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:02:12,652-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:02:13,898-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:02:13,900-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:20:29,212-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:20:33,111-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:20:33,114-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:20:37,531-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:20:37,534-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:20:37,536-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:20:38,518-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:20:38,520-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:20:38,522-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:20:39,488-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:20:39,491-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:20:57,886-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:21:21,165-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:21:26,263-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:21:26,265-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:21:26,536-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:21:26,539-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:21:27,741-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:38,608-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:39,518-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:39,520-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:39,707-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:39,709-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:39,710-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:22:39,881-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:39,883-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:39,884-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:22:40,075-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:40,077-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:40,248-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:40,251-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:40,421-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:40,423-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:40,582-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:40,584-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:22:40,771-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:22:57,525-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:23:01,918-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:23:01,920-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:23:06,026-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:23:06,029-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:23:06,031-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:23:07,128-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:23:07,130-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:23:07,132-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:23:08,358-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:23:08,360-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:23:08,661-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:23:08,664-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:24:31,103-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:24:31,106-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:24:31,361-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:24:31,365-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:24:32,360-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:03,694-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:04,662-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:04,664-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:04,855-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:04,857-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:04,858-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:25:05,038-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:05,040-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:05,042-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:25:05,255-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:05,257-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:05,937-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:05,939-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:06,125-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:06,127-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:06,303-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:25:06,305-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:25:06,514-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:05,003-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:27:08,231-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:08,233-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:27:09,901-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:09,903-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:27:09,905-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:27:11,121-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:11,123-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:27:11,125-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:27:12,377-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:12,379-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:27:14,033-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:14,036-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:27:15,535-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:15,538-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:27:15,820-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:27:15,824-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:29:19,147-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:29:57,768-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:29:58,651-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:29:58,653-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:29:58,866-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:29:58,868-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:29:58,869-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:29:59,057-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:29:59,059-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:29:59,060-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:29:59,243-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:29:59,245-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:29:59,810-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:29:59,811-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:29:59,997-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:29:59,999-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:30:00,162-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:30:00,165-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:30:00,349-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:31:20,689-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:31:23,983-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:31:23,985-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:31:25,420-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:31:25,422-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:31:25,424-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:31:26,452-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:31:26,455-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:31:26,457-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:31:27,451-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:31:27,453-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:31:32,121-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:31:32,123-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:31:36,031-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:31:36,033-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:37:30,552-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:37:35,496-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:37:35,499-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:37:36,796-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:37:36,798-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:37:36,800-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:37:37,798-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:37:37,800-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:37:37,802-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:37:38,756-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:37:38,758-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:37:49,320-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:37:49,322-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:37:51,432-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:37:51,434-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:01,171-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:02,111-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:02,115-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:02,312-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:02,313-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:02,315-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:45:02,518-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:02,520-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:02,522-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:45:02,714-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:02,716-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:03,475-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:03,477-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:03,672-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:03,674-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:04,258-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:04,259-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:04,450-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:56,498-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:57,413-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:57,415-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:57,603-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:57,605-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:57,606-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:45:57,797-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:57,799-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:57,801-INFO-api_log.py-API_Test_Logger-日志信息:使用get方法
+2018-08-12 22:45:57,989-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:57,991-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:58,701-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:58,702-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:58,909-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:58,910-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:59,541-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
+2018-08-12 22:45:59,543-INFO-api_log.py-API_Test_Logger-日志信息:开始测试
+2018-08-12 22:45:59,751-INFO-api_log.py-API_Test_Logger-日志信息:测试结束
