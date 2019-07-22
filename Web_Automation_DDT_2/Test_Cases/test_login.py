@@ -26,17 +26,17 @@ class TestLogin(unittest.TestCase):
         self.login_page = LoginPage(self.driver)
         self.home_page = HomePage(self.driver)
 
-    # def test_3_login_success(self):
-    #     self.login_page.login(login_data.success_data["username"],login_data.success_data["password"])
-    #     expect_result_1 = self.home_page.get_nickName()
-    #     self.assertEqual(login_data.success_data["check_nickname"], expect_result_1)
-    #     expect_result_2 = self.home_page.get_current_url()
-    #     self.assertEqual(home_data.current_url, expect_result_2)
+    def test_3_login_success(self):
+        self.login_page.login(login_data.success_data["username"],login_data.success_data["password"])
+        expect_result_1 = self.home_page.get_nickName()
+        self.assertEqual(login_data.success_data["check_nickname"], expect_result_1)
+        expect_result_2 = self.home_page.get_current_url()
+        self.assertEqual(home_data.current_url, expect_result_2)
 
-    # @data(*login_data.error_data)
-    # def test_1_fail_login(self, date):
-    #     self.login_page.login(date["username"], date["password"])
-    #     self.assertEqual(self.login_page.no_data_error(), date["check"])
+    @data(*login_data.error_data)
+    def test_1_fail_login(self, date):
+        self.login_page.login(date["username"], date["password"])
+        self.assertEqual(self.login_page.no_data_error(), date["check"])
 
     @data(*login_data.username_passwd_mismatch)
     def test_2_username_passwd_mismatch(self, info):
