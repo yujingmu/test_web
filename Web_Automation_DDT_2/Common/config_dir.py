@@ -11,10 +11,10 @@ print(ROOT_PATH)
 
 LOG_PATH = os.path.join(ROOT_PATH, "LOG")
 if not os.path.exists(LOG_PATH):
-    os.mkdir(LOG_PATH)
+    os.makedirs(LOG_PATH)
 
 IMG_PATH = os.path.join(LOG_PATH,"IMG")
 if not os.path.exists(IMG_PATH):
-    os.mkdir(IMG_PATH)
+    os.makedirs(IMG_PATH)
 
 

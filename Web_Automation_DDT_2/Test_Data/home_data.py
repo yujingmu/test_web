@@ -4,4 +4,5 @@
 # @Author  : yimi
 # @File    : home_data.py
 
-current_url = "http://120.78.128.25:8765/Index/index"
+index_url = "http://120.78.128.25:8765/Index/index"
+

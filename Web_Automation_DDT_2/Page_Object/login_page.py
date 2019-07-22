@@ -4,53 +4,51 @@
 # @Author  : yimi
 # @File    : login_page.py
 
-from Test_Data import login_data
-from Base_Page import BasePage as BP
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from Page_Locator.login_locator import LoginLocator
 from Base_Page import BasePage
-import time
+from Page_Locator.login_locator import LoginLocator
+from Test_Data import login_data
 
-class LoginPage:
+
+class LoginPage(BasePage):
 
     def __init__(self, driver):
-        self.driver = driver
+        super(LoginPage, self).__init__(driver)
         self.driver.get(login_data.login_url)
         self.login_locator = LoginLocator()
-        self.base_page = BasePage(self.driver)
+
+    def get_element_username(self):
+        return self.wait_element_presence(self.login_locator.username_locator)
+
+    @property
+    def get_element_passwd(self):
+        return self.wait_element_presence(self.login_locator.password_locator)
+
+    @property
+    def get_login_button(self):
+        return self.wait_element_click(self.login_locator.login_button_locator)
 
     def login(self, user, passwd):
-        login_locator = (By.XPATH, self.login_locator.login_by_xpath)
-        self.base_page.wait_element_click(login_locator)
+        self.wait_element_click(self.login_locator.login_button_locator)
+        self.get_element_username().send_keys(user)
+        self.get_element_passwd.send_keys(passwd)   # 方法被@property 修饰可以作为属性，引用时不用加括号
+        self.get_login_button.click()
+
         # self.driver.find_element_by_name("phone").send_keys(user)
         # self.driver.find_element_by_name("password").send_keys(passwd)
-        self.get_element_username().send_keys(user)
-        self.get_element_passwd().send_keys(passwd)
         # self.driver.find_element_by_name(self.login_locator.username_by_name).send_keys(user)
         # self.driver.find_element_by_name(self.login_locator.password_by_name).send_keys(passwd)
-        self.driver.find_element_by_xpath(self.login_locator.login_by_xpath).click()
+
+    def no_data_error(self):
+        element = self.wait_element_visibility(self.login_locator.no_data_error_locator)
+        return element.text
+
+    @property
+    def get_element_username_or_passwd_error(self):
+       return self.wait_element_quick_presence(self.login_locator.username_or_passwd_error_locator)
+       # return self.driver.find_element(self.login_locator.username_or_passwd_error_locator)
 
     def registry(self):
         pass
 
     def forget_passwd(self):
         pass
-
-    def no_data_error(self):
-        no_user_locator = (By.XPATH, self.login_locator.no_data_error_by_xpath)
-        self.base_page.wait_element_visibility(no_user_locator)
-        return self.driver.find_element_by_xpath(self.login_locator.no_data_error_by_xpath).text
-
-    def get_element_username(self):
-        return self.base_page.wait_element_presence((By.NAME, self.login_locator.username_by_name))
-
-    def get_element_passwd(self):
-        return self.base_page.wait_element_presence((By.NAME,self.login_locator.password_by_name))
-
-    @property
-    def get_element_username_or_passwd_error(self):
-       self.base_page.wait_element_quick_presence((By.NAME, self.login_locator.username_or_passwd_error_by_name))
-       # time.sleep(0.02)
-       return self.driver.find_element_by_class_name(self.login_locator.username_or_passwd_error_by_name)
