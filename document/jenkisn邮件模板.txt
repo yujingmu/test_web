@@ -1,0 +1,13 @@
+﻿<hr>
+(本邮件是程序自动下发的，请勿回复！)<br><hr>
+项目名称：$PROJECT_NAME<br><hr>
+构建编号：$BUILD_NUMBER<br><hr>
+svn版本号：${SVN_REVISION}<br><hr>
+构建状态：$BUILD_STATUS<br><hr>
+触发原因：${CAUSE}<br><hr>
+测试报告：<a href="http://127.0.0.1:8887/html/index.html">http://127.0.0.1:8887/html/index.html</a>
+<br><hr>
+构建日志地址：<a href="${BUILD_URL}console">${BUILD_URL}console/</a><br><hr>
+构建地址：<a href="$BUILD_URL">$BUILD_URL</a><br><hr>
+构建报告：<a href="${BUILD_URL}testReport">${BUILD_URL}testReport/</a><br><hr>
+变更集:${JELLY_SCRIPT,template="html"}<br><hr/>

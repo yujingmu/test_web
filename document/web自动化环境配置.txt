@@ -1,0 +1,59 @@
+
+数据交互： 前端页面—后台服务—数据库
+网页组成： html  css  js 
+HTML：标记语言，定义页面呈现的内容   Hyper Text Markup Language
+CSS: 布局设置，如字体颜色，字体大小
+Javascript: 处理事件，页面之间的跳转
+
+登陆、首页、标详情页面、个人页面---投资
+
+
+Web自动化环境配置：
+Browser driver:
+Chromedriver下载地址：http://npm.taobao.org/mirrors/chromedriver/
+Chromedriver放在python的安装根目录下
+安装selenium：
+pip install –U selenium
+pip install appium
+pip installl appium-python-client
+
+web自动化需要知道的知识：
+HTML：http://www.runoob.com/html/html-tutorial.html
+css:http://www.runoob.com/css/css-tutorial.html
+dom:http://www.runoob.com/htmldom/htmldom-intro.html
+数据库：http://www.runoob.com/mysql/mysql-tutorial.html
+python基础练习：http://www.runoob.com/python3/python3-tutorial.html
+
+文件上传工具安装：
+下载WinSpy，定位上传窗口
+pip install pyiwin32  或  python -m pip install pyiwin32
+
+
+1. 安装selenium
+pip install -U selenium
+
+2. 安装chrome浏览器chrome和chromedriver下载
+chromedriver下载： https://npm.taobao.org/mirrors/chromedriver
+
+chromedriver放在python的安装目录下即可
+
+
+上传文件
+
+  工具安装 pywin32 spy++  windows控件
+
+  pip install pypiwin32
+
+
+
+pip install pytest   pytest 第三方库
+
+
+开源软件下载：https://sourceforge.net/
+
+
+pip install pytest-rerunfailures
+
+pytest --reruns 3  --reruns-delay 5
+
+https://pytest.org/

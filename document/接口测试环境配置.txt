@@ -1,0 +1,7 @@
+安装request：
+pip install requests
+
+soapui下载：https://www.soapui.org/downloads/latest-release.html
+
+安装python ddt
+pip install ddt

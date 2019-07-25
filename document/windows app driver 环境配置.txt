@@ -1,0 +1,29 @@
+download Windows application driver 
+https://github.com/Microsoft/WinAppDriver/releases/tag/v1.0
+
+download win10 sdk
+https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+win10 sdk using inspect.exe locate element
+install win10 sdk:
+Select the features you want to install interface:
+select: Windows SDK Signing Tools for Desktop Apps
+	Windows SDK for UWP Managed Apps
+
+download UI Recorder
+https://github.com/Microsoft/WinAppDriver/releases
+
+open client Developer mode:
+win10 -> Settings -> Update & security -> For developers -> Developer mode
+
+download visio studio
+
+install chocolatey, and install visio studio using chocolatey
+
+install chocolatey cmd(administrator):    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+using choco install visualstudio2017enterprise
+
+Open WinAppDriverUIRecorder.sln in Visual Studio
+Select Debug > Start Debugging or simply Run
+
+
