@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web_homework_1</title>
+</head>
+
+<body>
+<form>
+    username:<input type='text' id='user_name' placeholder="login username"><br>
+    password:<input type="password" id="passwd" placeholder="login password">
+    <p>Favor movie:
+        <select name='movie'>
+            <option>Please select</option>
+            <option value="Frozoning">Frozoning</option>
+            <option value="Avengers">Avengers</option>
+            <option value="Iron Man">Iron Man</option>
+            <option value="America Captain">America Captain</option>
+        </select>
+    </p>
+    <p>个人资料上传：
+        <input type="file" id="source">
+    </p>
+    <input type='button' value='submit' id='login_button'>
+    <button id='clear_date'>reset</button ><br />
+</form>
+<script>
+    document.getElementById('login_button').onclick=function() {
+        alert(document.getElementById("user_name").value);
+//        console.log(document.getElementByName("movie").value);
+    }
+    document.getElementById('clear_date').onclick=function(){
+        document.removeElementById('user_name').value;
+        document.removeElementById('passwd').value;
+        document.removeElementByName('selected').value;
+        document.removeElementById('source').file;
+    }
+</script>
+</body>
+</html>

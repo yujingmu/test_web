@@ -1,0 +1,57 @@
+
+<html>
+<head>
+	<title>Title-Private information</title>
+</head>
+<body>
+	<form>
+	<h2 align="center">First task</h2>
+	Username:<input type='text' id='uname' placeholder="login username"> </input> <br />
+	Password:<input type ='text' id='passwd'> </input> <br />
+	Sex:<input type='radio' checked='checked' name='sex'>male</input>
+	<input type='radio' name='sex'>female</input> <br />
+	Photo:<input id='photo' type="file"></input> <br />
+	<!--下拉列表-->
+	Address:<select name='select'>
+		<option> Please select </option>
+		<option value='BeiJing'> BeiJing </option>
+		<option value='Shanghai'> Shanghai </option>
+		<option value='GuangDong'> GuangDong </option>
+		<option value='ShanXi'> ShanXi </option>
+		<option value='JiangSu'> JiangSu </option>
+	</select>
+	<select name='city'>
+		<option readonly="readonly"> Please select </option>
+		<option value='BeiJing'> BeiJing </option>
+		<option value='Shanghai'> Shanghai </option>
+		<option value='ShenZhen'> ShenZhen </option>
+		<option value="Xi'an"> Xi'an </option>
+		<option value='NanJing'> NanJing </option>
+	</select><br />
+	Hobby:<input type="checkbox">basketaball</input>
+		  <input type="checkbox" checked='checked'>football</input>
+		  <input type="checkbox">reading</input><br />
+	<!--富文本框-->
+	Note:<textarea id='note' rows='10' cols='15'></textarea><br />
+	<input type='button' value='submit' id='login'></input>
+	<button id='clear_date'>reset</button ><br />
+	</form>
+	<script>
+		document.getElementById('login').onclick=function(){
+		alert(document.getElementById('uname').value);
+		alert(document.getElementById('passwd').value);
+		alert('Welcom to ningmeng class')
+		}
+
+		document.getElementById('clear_date').onclick=function(){
+		document.removeElementById('uname').value
+		document.removeElementById('passwd').value
+		document.removeElementById('photo').file
+		document.removeAttr('checked');
+		document.removeAttr('selected');
+		document.removeElementById('note').value
+		}
+
+	</script>
+</body>
+</html>
