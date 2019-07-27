@@ -18,9 +18,12 @@ class UserPage(BasePage):
         # self.login_locator = LoginLocator()
 
     def get_element_balance(self):
-        return self.wait_element_presence(self.user_locator.balance_locator)
+        name = "用户个人页面定位用户余额的元素"
+        return self.wait_element_presence(self.user_locator.balance_locator, model=name)
 
     def get_balance_amount(self):
+        name="用户个人页面获取用户余额"
         balance_str = self.get_element_balance().text
-        return float(balance_str)
+        balance = balance_str[0:-1]
+        return float(balance)
 

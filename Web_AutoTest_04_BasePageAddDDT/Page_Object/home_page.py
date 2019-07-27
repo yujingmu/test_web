@@ -26,20 +26,15 @@ class HomePage(BasePage):
 
 
     def get_nickName(self):
-        # self.wait_element_visibility(self.home_locator.nickname_locator)
-        # 滚动到视野可见区域
-        # element = self.driver.find_element(self.home_locator.nickname_locator)
-        # self.driver.execute_script("arguments[0].scrollIntoView();", element)
-        return self.wait_element_presence(self.home_locator.nickname_locator).text
+        name="主页面获取昵称"
+        return self.wait_element_presence(self.home_locator.nickname_locator, model=name).text
 
     def get_current_url(self):
-        self.wait_element_visibility(self.home_locator.nickname_locator)
+        name="主页面获取URL"
+        self.wait_element_visibility(self.home_locator.nickname_locator, model=name)
         return self.driver.current_url
-
-    def find_element(self, locator):
-        self.wait_element_click(locator)
-        return self.driver.find_element(*locator)
 
     def click_bid(self):
         """选择并点击第一个标"""
-        return self.wait_element_click(self.home_locator.changeable_bid1_locator).click()
+        name="主页面点击第一个标"
+        return self.wait_element_click(self.home_locator.changeable_bid1_locator, model=name).click()

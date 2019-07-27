@@ -18,17 +18,21 @@ class LoginPage(BasePage):
         self.bid_locator = BidLocator()
 
     def get_element_username(self):
-        return self.wait_element_presence(self.login_locator.username_locator)
+        name="登录页面获取用户名输入框"
+        return self.wait_element_presence(self.login_locator.username_locator, model=name)
 
     @property
     def get_element_passwd(self):
-        return self.wait_element_presence(self.login_locator.password_locator)
+        name="登录页面获取密码输入框"
+        return self.wait_element_presence(self.login_locator.password_locator, model=name)
 
     @property
     def get_login_button(self):
-        return self.wait_element_click(self.login_locator.login_button_locator)
+        name="登录页面获取登录按钮"
+        return self.wait_element_click(self.login_locator.login_button_locator, model=name)
 
     def login(self, user, passwd):
+        name="登录页面等待登录按钮出现"
         self.driver.get(login_data.login_url)
         self.wait_element_click(self.login_locator.login_button_locator)
         self.get_element_username().send_keys(user)
@@ -41,13 +45,15 @@ class LoginPage(BasePage):
         # self.driver.find_element_by_name(self.login_locator.password_by_name).send_keys(passwd)
 
     def no_data_error(self):
-        element = self.wait_element_visibility(self.login_locator.no_data_error_locator)
+        name="登录页面没有输入用户名或密码获取错误提示信息"
+        element = self.wait_element_visibility(self.login_locator.no_data_error_locator, model=name)
         return element.text
 
     @property
     def get_element_username_or_passwd_error(self):
-       return self.wait_element_quick_presence(self.login_locator.username_or_passwd_error_locator)
-       # return self.driver.find_element(self.login_locator.username_or_passwd_error_locator)
+        name = "登录页面获取弹出的错误信息"
+        return self.wait_element_quick_presence(self.login_locator.username_or_passwd_error_locator)
+        # return self.driver.find_element(self.login_locator.username_or_passwd_error_locator)
 
     def registry(self):
         pass

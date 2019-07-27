@@ -43,7 +43,7 @@ class TestBid(unittest.TestCase):
     def test_2_bid_sccess(self):
         old_balance = self.bid_page.enter_amount(bid_data.correct_data["investment_amount"])
         self.bid_page.click_bid_button()
-        self.assertEqual(self.bid_page.get_popup_info.text, bid_data.correct_data['投标成功！'])
+        self.assertEqual(self.bid_page.get_popup_info.text, bid_data.correct_data["check"])
         self.bid_page.active_bid()
         new_balance = self.user_page.get_balance_amount()
         expected = int(float(old_balance) * 100) - int(float(bid_data.correct_data["investment_amount"]) * 100)
