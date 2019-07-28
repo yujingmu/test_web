@@ -5,7 +5,7 @@
 # @File    : bid_page.py
 
 
-from Base_Page import BasePage
+from Page_Object.Base_Page import BasePage
 from Page_Locator.bid_locator import BidLocator
 
 class BidPage(BasePage):

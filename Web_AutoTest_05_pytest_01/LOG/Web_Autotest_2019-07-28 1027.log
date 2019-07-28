@@ -1,0 +1,18 @@
+ Sun, 28 Jul 2019 10:27:25  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见
+ Sun, 28 Jul 2019 10:27:25  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'phone')元素存在
+ Sun, 28 Jul 2019 10:27:26  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'password')元素存在
+ Sun, 28 Jul 2019 10:27:26  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见
+ Sun, 28 Jul 2019 10:27:49  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//div[@class='b-unit'][1]//span[@class='fs-22']")元素可见
+ Sun, 28 Jul 2019 10:28:12  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('xpath', "//div[text()='融资投标']")元素存在
+ Sun, 28 Jul 2019 10:28:13  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('xpath', "//input[@class= 'form-control invest-unit-investinput']")元素存在
+ Sun, 28 Jul 2019 10:28:13  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special height_style']")元素可见
+ Sun, 28 Jul 2019 10:28:14  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('css selector', '.layui-layer-content .capital_font1')元素存在
+ Sun, 28 Jul 2019 10:28:14  INFO Base_Page.py wait_element_click [ line:33 ] 等待('css selector', '.layui-layer-content .capital_btn>button')元素可见
+ Sun, 28 Jul 2019 10:28:38  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('class name', 'color_sub')元素存在
+ Sun, 28 Jul 2019 10:28:38  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('class name', 'color_sub')元素存在
+ Sun, 28 Jul 2019 10:28:52  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见
+ Sun, 28 Jul 2019 10:28:52  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'phone')元素存在
+ Sun, 28 Jul 2019 10:28:52  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'password')元素存在
+ Sun, 28 Jul 2019 10:28:53  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见
+ Sun, 28 Jul 2019 10:29:15  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('xpath', "//a[@href='/Member/index.html']")元素存在
+ Sun, 28 Jul 2019 10:29:15  INFO Base_Page.py wait_element_visibility [ line:102 ] 等待('xpath', "//a[@href='/Member/index.html']")元素可见

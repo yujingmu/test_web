@@ -5,7 +5,7 @@
 # @File    : user_page.py
 
 import os
-from Base_Page import BasePage
+from Page_Object.Base_Page import BasePage
 from Page_Locator.user_locator import UserLoctor
 from Page_Locator.user_locator import UserLoctor
 # from Test_Data import login_data

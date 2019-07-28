@@ -4,7 +4,7 @@
 # @Author  : yimi
 # @File    : login_page.py
 
-from Base_Page import BasePage
+from Page_Object.Base_Page import BasePage
 from Page_Locator.login_locator import LoginLocator
 from Page_Locator.bid_locator import BidLocator
 from Test_Data import login_data

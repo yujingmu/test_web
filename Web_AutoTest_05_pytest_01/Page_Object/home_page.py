@@ -4,7 +4,7 @@
 # @Author  : yimi
 # @File    : home_page.py
 
-from Base_Page import BasePage
+from Page_Object.Base_Page import BasePage
 from Page_Locator.home_locator import HomeLocator
 from Test_Data import home_data
 from selenium import webdriver
