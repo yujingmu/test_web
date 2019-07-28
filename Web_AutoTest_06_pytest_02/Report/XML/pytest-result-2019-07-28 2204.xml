@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skipped="0" tests="2" time="123.770"><testcase classname="Test_Cases.test_bid.TestBid" file="Test_Cases\test_bid.py" line="23" name="test_2_bid_sccess" time="85.785"><system-err> Sun, 28 Jul 2019 22:04:02  INFO conftest.py web_login [ line:25 ] ***用例前置：初始化浏览器会话，登录前程贷系统***
+ Sun, 28 Jul 2019 22:04:12  INFO Base_Page.py wait_element_click [ line:33 ] 等待(&apos;xpath&apos;, &quot;//button[@class=&apos;btn btn-special&apos;]&quot;)元素可见
+ Sun, 28 Jul 2019 22:04:12  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;name&apos;, &apos;phone&apos;)元素存在
+ Sun, 28 Jul 2019 22:04:12  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;name&apos;, &apos;password&apos;)元素存在
+ Sun, 28 Jul 2019 22:04:13  INFO Base_Page.py wait_element_click [ line:33 ] 等待(&apos;xpath&apos;, &quot;//button[@class=&apos;btn btn-special&apos;]&quot;)元素可见
+ Sun, 28 Jul 2019 22:04:36  INFO Base_Page.py wait_element_click [ line:33 ] 等待(&apos;xpath&apos;, &quot;//div[@class=&apos;b-unit&apos;][1]//span[@class=&apos;fs-22&apos;]&quot;)元素可见
+ Sun, 28 Jul 2019 22:04:59  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;xpath&apos;, &quot;//div[text()=&apos;融资投标&apos;]&quot;)元素存在
+ Sun, 28 Jul 2019 22:05:00  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;xpath&apos;, &quot;//input[@class= &apos;form-control invest-unit-investinput&apos;]&quot;)元素存在
+ Sun, 28 Jul 2019 22:05:00  INFO Base_Page.py wait_element_click [ line:33 ] 等待(&apos;xpath&apos;, &quot;//button[@class=&apos;btn btn-special height_style&apos;]&quot;)元素可见
+ Sun, 28 Jul 2019 22:05:01  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;css selector&apos;, &apos;.layui-layer-content .capital_font1&apos;)元素存在
+ Sun, 28 Jul 2019 22:05:01  INFO Base_Page.py wait_element_click [ line:33 ] 等待(&apos;css selector&apos;, &apos;.layui-layer-content .capital_btn&gt;button&apos;)元素可见
+ Sun, 28 Jul 2019 22:05:24  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;class name&apos;, &apos;color_sub&apos;)元素存在
+ Sun, 28 Jul 2019 22:05:24  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;class name&apos;, &apos;color_sub&apos;)元素存在
+ Sun, 28 Jul 2019 22:05:24  INFO conftest.py web_login [ line:36 ] ***用例后置：关闭浏览器会话***
+</system-err></testcase><testcase classname="Test_Cases.test_login.TestLogin" file="Test_Cases\test_login.py" line="26" name="test_3_login_success" time="37.462"><system-err> Sun, 28 Jul 2019 22:05:38  INFO Base_Page.py wait_element_click [ line:33 ] 等待(&apos;xpath&apos;, &quot;//button[@class=&apos;btn btn-special&apos;]&quot;)元素可见
+ Sun, 28 Jul 2019 22:05:38  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;name&apos;, &apos;phone&apos;)元素存在
+ Sun, 28 Jul 2019 22:05:39  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;name&apos;, &apos;password&apos;)元素存在
+ Sun, 28 Jul 2019 22:05:39  INFO Base_Page.py wait_element_click [ line:33 ] 等待(&apos;xpath&apos;, &quot;//button[@class=&apos;btn btn-special&apos;]&quot;)元素可见
+ Sun, 28 Jul 2019 22:06:01  INFO Base_Page.py wait_element_presence [ line:80 ] 等待(&apos;xpath&apos;, &quot;//a[@href=&apos;/Member/index.html&apos;]&quot;)元素存在
+ Sun, 28 Jul 2019 22:06:02  INFO Base_Page.py wait_element_visibility [ line:101 ] 等待(&apos;xpath&apos;, &quot;//a[@href=&apos;/Member/index.html&apos;]&quot;)元素可见
+</system-err></testcase></testsuite>

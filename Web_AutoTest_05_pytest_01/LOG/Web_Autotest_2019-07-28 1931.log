@@ -1,0 +1,14 @@
+ Sun, 28 Jul 2019 19:31:39  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见
+ Sun, 28 Jul 2019 19:31:39  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'phone')元素存在
+ Sun, 28 Jul 2019 19:31:39  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'password')元素存在
+ Sun, 28 Jul 2019 19:31:40  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见
+ Sun, 28 Jul 2019 19:32:02  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//div[@class='b-unit'][1]//span[@class='fs-22']")元素可见
+ Sun, 28 Jul 2019 19:32:25  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('xpath', "//div[text()='融资投标']")元素存在
+ Sun, 28 Jul 2019 19:32:25  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('xpath', "//input[@class= 'form-control invest-unit-investinput']")元素存在
+ Sun, 28 Jul 2019 19:32:56  ERROR Base_Page.py wait_element_click [ line:36 ] 元素定位超时，错误信息为：Message: 
+
+ Sun, 28 Jul 2019 19:32:57  INFO Base_Page.py _screen_shot [ line:28 ] 标详情页面点击提交按钮错误截图成功，路径为: 标详情页面点击提交按钮
+ Sun, 28 Jul 2019 19:33:11  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见
+ Sun, 28 Jul 2019 19:33:11  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'phone')元素存在
+ Sun, 28 Jul 2019 19:33:11  INFO Base_Page.py wait_element_presence [ line:81 ] 等待('name', 'password')元素存在
+ Sun, 28 Jul 2019 19:33:12  INFO Base_Page.py wait_element_click [ line:33 ] 等待('xpath', "//button[@class='btn btn-special']")元素可见

@@ -1,0 +1,2 @@
+. Test_Cases/test_bid.py::TestBid::test_2_bid_sccess
+. Test_Cases/test_login.py::TestLogin::test_3_login_success
