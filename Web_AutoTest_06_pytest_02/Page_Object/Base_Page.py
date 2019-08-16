@@ -155,8 +155,8 @@ class BasePage:
                 self._screen_shot(model)
                 raise
 
-    def switch_window(self, window_handles, wait, requence, name=None):
-        WebDriverWait(self.driver, wait, requence).until(EC.new_window_is_opened(window_handles))
+    def switch_window(self, window_handles, wait, requence, name=None):        
+        WebDriverWait(self.driver, wait, requence).until(EC.new_window_is_opened(window_handles))    # 执行点击操作之前的
         if not name:
             return self.driver.switch_to.window(window_handles[-1])
         return self.driver.switch_to.window(name)
