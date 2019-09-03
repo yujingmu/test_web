@@ -8,6 +8,7 @@ import time
 import unittest
 from Common import config_dir
 from HTMLTestRunnerNew import HTMLTestRunner
+# 将HTMLTestRunnerNew.py file 放至到python 的lib路径下 D:\python37\Lib
 
 # 实例化套件对象
 s = unittest.TestSuite()
